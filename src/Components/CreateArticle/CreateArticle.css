@@ -1,0 +1,64 @@
+.articleCreation {
+    margin-top:  50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-width: 50%
+}
+
+.templateTitle{
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 25px
+}
+
+.title{
+    margin-top: 30px;
+}
+
+.systems{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column
+}
+
+.location{
+    margin-bottom: 50px;
+    margin-left: 80px
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+.ql-toolbar.ql-snow{
+    margin-top: 50px
+}
+
+.ql-editor {
+    
+}
+
+.preview-button{
+    margin-top:50px;
+}
+
+.image {
+    max-width: 180px;
+}
+
+.imageBox[type=file] {
+    padding: 10px;
+    background: #2d2d2d
+}
+
+.systems{
+   display: flex;
+   flex-direction: row;
+}

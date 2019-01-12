@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black
+}
+
+.item {
+    display: flex;
+    /* border-radius: 5px; */
+    /* margin: 5px; */
+    padding: 20px 25px;
+    border: 1px solid #BADD65;
+    border-right-color: black;
+    background-color: #BADD65;
+   
+}
+
+.item-left {
+    /* margin: 5px; */
+    padding: 20px 25px;
+    border: 1px solid #BADD65;
+    border-right-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #BADD65;
+}
+
+
+a.item:link {
+    color: white;
+}
+
+.custom-select {
+    width: 200px;
+    position: relative;
+    padding: 10px 15px;
+    border: 1px solid #BADD65;
+    background-color: #BADD65;
+    border-right-color: black;
+
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+.e:hover {
+    background-color: #EE3338;
+}
+
+.searchBorder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding-left: 25px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #BADD65;
+}
+
+/* searchBar animation */
+.searchBar {
+    width: 10px;
+    transition: width 2s;
+    background-color: transparent;
+    border: none
+}
+
+.searchBar:hover {
+    width: 250px;
+}
+
+.searchBar:focus {
+    width: 250px;
+    outline: 0;
+    font-size: 45px;
+}
+
+a.link {
+    color: #EE3338;
+    font-size: 20px;
+}

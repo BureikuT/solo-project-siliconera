@@ -1,0 +1,6 @@
+.bottom {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color:#1B1B1C;
+}

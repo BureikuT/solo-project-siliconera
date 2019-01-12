@@ -1,0 +1,51 @@
+.headerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.loginButton {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+.logout{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+
+.search-button {
+    background-color: #EE3338;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px
+}
+
+fa-gamepad {
+    color: green
+}
+
+.profilePic{
+    border-radius:50%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.userName{
+   color: white;
+}
+
+.right-side{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+/* padding-bottom: 10px */
+}
