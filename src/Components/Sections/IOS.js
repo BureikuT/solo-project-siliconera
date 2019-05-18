@@ -21,6 +21,7 @@ class IOS extends Component {
         const iosArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>IOS</div>
                 {iosArticles}
             </div>
         )

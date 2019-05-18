@@ -7,6 +7,7 @@ import './ArticlePreviews.css'
 const Articles = (props) => {
     console.log('props', props)
     return (
+   
         <div className='articleList'>
             <Link to={`/articles/${props.articleInfo.article_id}`}>
                 <div className='previewImage'>
@@ -27,6 +28,7 @@ const Articles = (props) => {
                 </div>
             </div>
         </div>
+      
     )
 }
 

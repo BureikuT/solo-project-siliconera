@@ -21,6 +21,7 @@ class NSwitch extends Component {
         const nswitchArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>Nintendo Switch</div>
                 {nswitchArticles}
             </div>
         )

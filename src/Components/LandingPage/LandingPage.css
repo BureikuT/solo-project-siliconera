@@ -1,11 +1,29 @@
-.results {
+ /* .results {
     grid-area: main;
     height: auto;
-  border: 2px solid gray;
+  border: 1px solid rgb(167, 161, 161);
   
-}
+} */
+
+/* .grind-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+} */
 
 .sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;   
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px
+}
+
+/* .sections{
     grid-area: section;
     display: flex;
     flex-direction: row;
@@ -14,17 +32,17 @@
     align-items: center;
     justify-content: center
     
-}
-
+} */
+/*
 .grid-container {
     display: grid;
     grid:
-    '  section . .' 1fr
-    "  main . . "1fr 
-    "  main . . "1fr
-    "  main . . " 1fr
-    '  . pagination .' 1fr
-    / 1fr 1fr 1fr ;
+    '. . section . .' 2fr
+    ". . main main . . "2fr 
+    " . . main main . ."2fr
+    " . . main main . ." 2fr
+    ' . . pagination . .' 2fr
+    / 2fr 2fr 2fr 2fr 2fr ;
 }
 
 .Pagination {
@@ -34,4 +52,4 @@
 .sides {
 grid-area: sides;
 color: black
-}
+} */

@@ -1,6 +1,101 @@
-.article{
-    display:flex;
+.article {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 0px auto;
+    background-color: black
+    
+}
+
+.articleInfo {
+    border: 5px;
+    margin: 50px 100px;
+    background-color: white;
+    padding: 25px 50px 25px 50px;
+    
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.flags img {
+    width: 35px;
+    height: 25px
+}
+
+.top {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px;
+    align-content: center;
+}
+
+.system {
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.systems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.articlePic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.authorPost{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.comments{
+   background-color: white;
 }

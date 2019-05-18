@@ -18,9 +18,12 @@ class Interviews extends Component {
 
     render() {
 
+
         const interviewArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
+           
             <div>
+                 <div className='section'>INTERVIEWS</div>
                 {interviewArticles}
             </div>
         )

@@ -1,11 +1,16 @@
+
 .articleCreation {
-    margin-top:  50px;
-    display: flex;
+     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+    margin: 50px 100px 25px 100px;
     
-    border-width: 50%
+    
+} 
+
+.articleCreation:after{
+    background-color: #000000
 }
 
 .templateTitle{

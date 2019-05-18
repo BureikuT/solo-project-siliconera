@@ -44,6 +44,7 @@ class Header extends Component {
 
     render() {
 
+
         return (
             <div>
                 <div className='headerForm'>
@@ -55,6 +56,7 @@ class Header extends Component {
                             (
                                 <div className='right-side'>
                                     <div className='logout' onClick={this.logout}>
+                                    
                                         Logout
                                 </div>
                                     <div>
@@ -62,6 +64,9 @@ class Header extends Component {
                                     </div>
                                     <div className='userName'>
                                     {this.props.user.name}
+                                    </div>
+                                    <div className='createArticle'>
+                                    <button><Link  to='/create-article'>Create Article</Link></button> 
                                     </div>
 
                                 </div>

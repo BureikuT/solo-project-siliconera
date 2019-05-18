@@ -21,6 +21,7 @@ class XOne extends Component {
         const xOneArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>XBOX ONE</div>
                 {xOneArticles}
             </div>
         )

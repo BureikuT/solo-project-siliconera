@@ -21,6 +21,7 @@ class ThreeDS extends Component {
         const threeDSArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>3DS</div>
                 {threeDSArticles}
             </div>
         )

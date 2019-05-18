@@ -40,7 +40,7 @@ class LandingPage extends Component {
             return (
                 <div className='grid-container'>
                 <div className= 'sides'></div>
-                    <div>THE LATEST</div>
+                    <div className='sections'>THE LATEST</div>
                     <div className='results'>
                         {resultsArticles}
                     </div>

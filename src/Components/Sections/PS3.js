@@ -21,6 +21,7 @@ class PS3 extends Component {
         const ps3Articles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>PLAYSTATION 3</div>
                 {ps3Articles}
             </div>
         )

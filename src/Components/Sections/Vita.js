@@ -21,6 +21,7 @@ class Vita extends Component {
         const vitaArticles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>VITA</div>
                 {vitaArticles}
             </div>
         )

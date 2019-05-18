@@ -21,6 +21,7 @@ class X360 extends Component {
         const x360Articles = this.state.articles.map((article, index) => <ArticlePreviews key={this.state.articles.article_id} articleInfo={article} />)
         return (
             <div>
+                <div className='section'>XBOX 360</div>
                 {x360Articles}
             </div>
         )
